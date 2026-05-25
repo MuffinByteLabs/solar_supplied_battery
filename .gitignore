@@ -1,0 +1,10 @@
+﻿# KiCad auto-generated / local files
+*-backups/
+*.kicad_prl
+*.lck
+fp-info-cache
+
+# Editor / OS junk
+.history/
+.vscode/
+*.bak
