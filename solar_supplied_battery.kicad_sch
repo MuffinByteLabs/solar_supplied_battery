@@ -2145,18 +2145,6 @@
 		(uuid "76ce4750-8f71-46ef-971f-82db36b62f8c")
 	)
 	(junction
-		(at 176.53 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79240697-69fc-43ce-86c7-2a986d9835fc")
-	)
-	(junction
-		(at 166.37 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88e72d0b-5277-4507-ab2e-fd1031e57781")
-	)
-	(junction
 		(at 149.86 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2257,16 +2245,6 @@
 			(type default)
 		)
 		(uuid "28ea0871-4502-4c60-bff8-be017dfb931c")
-	)
-	(wire
-		(pts
-			(xy 166.37 91.44) (xy 176.53 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b140f6b-7df4-445c-a586-199b1910e8e6")
 	)
 	(wire
 		(pts
@@ -3071,7 +3049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 82.55 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3537,7 +3515,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 234.95 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3708,7 +3686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 63.5 111.76 0)
 			(hide yes)
 			(show_name no)
