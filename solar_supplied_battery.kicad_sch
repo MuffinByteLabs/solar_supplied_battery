@@ -1259,6 +1259,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:2N7002"
 			(pin_names
 				(offset 0)
@@ -2067,6 +2257,12 @@
 		(uuid "0b8bab5a-3ac7-4f9e-aabb-23de4a9a630f")
 	)
 	(junction
+		(at 102.87 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bc29138-8133-4cb2-aae3-b61280e4dacb")
+	)
+	(junction
 		(at 120.65 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2127,12 +2323,6 @@
 		(uuid "44bf86a6-e622-4e78-80ed-5142e465a447")
 	)
 	(junction
-		(at 102.87 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d67c65c-9a90-4761-af0c-b80afdf6e35a")
-	)
-	(junction
 		(at 102.87 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2163,6 +2353,12 @@
 		(uuid "ac364168-3cb9-4ab0-8b7a-5f1e0de69708")
 	)
 	(junction
+		(at 87.63 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af3a1ac8-b22b-4266-85ee-b642291476f0")
+	)
+	(junction
 		(at 115.57 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2179,12 +2375,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce27de27-039a-46f3-8c56-aab38f3d2943")
-	)
-	(junction
-		(at 87.63 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed86b74e-7a0f-44b3-83f0-459e93056daf")
 	)
 	(wire
 		(pts
@@ -2228,6 +2418,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 88.9) (xy 102.87 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e6062a6-93e7-4b1a-bd0a-b38e618e0242")
+	)
+	(wire
+		(pts
 			(xy 179.07 111.76) (xy 194.31 111.76)
 		)
 		(stroke
@@ -2235,6 +2435,16 @@
 			(type default)
 		)
 		(uuid "270a1c63-7ee3-45b9-b72c-42ec3b4aa096")
+	)
+	(wire
+		(pts
+			(xy 87.63 91.44) (xy 88.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2873e432-87e8-480b-98ad-55ca5dc73680")
 	)
 	(wire
 		(pts
@@ -2338,16 +2548,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 91.44) (xy 87.63 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46b529b3-ec46-497e-a316-c2e0afefddc0")
-	)
-	(wire
-		(pts
 			(xy 115.57 127) (xy 115.57 132.08)
 		)
 		(stroke
@@ -2365,6 +2565,16 @@
 			(type default)
 		)
 		(uuid "48eb5c8d-7952-4424-8b28-6377cb280088")
+	)
+	(wire
+		(pts
+			(xy 87.63 91.44) (xy 87.63 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "529b7c9c-c7be-44ba-af1c-99c2670726b2")
 	)
 	(wire
 		(pts
@@ -2548,6 +2758,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 88.9) (xy 102.87 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e5ca8b6-4631-435e-94ab-9f545c4dc7c9")
+	)
+	(wire
+		(pts
 			(xy 160.02 132.08) (xy 179.07 132.08)
 		)
 		(stroke
@@ -2555,16 +2775,6 @@
 			(type default)
 		)
 		(uuid "9138d37f-5f29-44fc-90a3-ed5c0170bb01")
-	)
-	(wire
-		(pts
-			(xy 87.63 91.44) (xy 87.63 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bcedf59-8374-475e-a25f-795581e77a99")
 	)
 	(wire
 		(pts
@@ -2678,16 +2888,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 91.44) (xy 95.25 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4576e0a-55ac-4ded-bb1f-d002463c65ba")
-	)
-	(wire
-		(pts
 			(xy 217.17 91.44) (xy 194.31 91.44)
 		)
 		(stroke
@@ -2757,7 +2957,7 @@
 		(uuid "3a701203-e6f2-40ed-ad63-d859774ed37c")
 	)
 	(label "BAT_P"
-		(at 87.63 96.52 0)
+		(at 87.63 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2921,6 +3121,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 179.07 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "785fa758-07f9-4a3c-93cf-d1ddc7e894ba")
 		)
@@ -3003,6 +3214,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 115.57 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "86caa1e5-a9a4-4d85-a5d8-52779bda9f7b")
 		)
@@ -3039,7 +3261,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "WJ500V-5.08-2P"
 			(at 83.185 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3049,7 +3271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 82.55 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3060,7 +3282,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Ningbo_KangnexElec-WJ500V_5_082P/C8465"
 			(at 82.55 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3084,6 +3306,17 @@
 		)
 		(property "Short description" "BAT"
 			(at 84.074 110.744 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part" "C8465"
+			(at 82.55 106.68 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3306,6 +3539,17 @@
 				(justify bottom)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 171.45 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "C"
 			(uuid "9cfe28b6-0d41-479b-879e-2696c4df03b6")
 		)
@@ -3378,6 +3622,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 76.2 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part" ""
 			(at 76.2 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3469,6 +3724,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 217.17 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f2a3368e-210f-4864-90ac-1a68be8dea1c")
 		)
@@ -3505,7 +3771,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "WJ500V-5.08-2P"
 			(at 235.585 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3515,7 +3781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 234.95 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3526,7 +3792,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Ningbo_KangnexElec-WJ500V_5_082P/C8465"
 			(at 234.95 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3550,6 +3816,17 @@
 		)
 		(property "Short description" "OUT"
 			(at 243.332 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part" "C8465"
+			(at 234.95 110.49 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3640,6 +3917,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 194.31 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fd0c10fc-ef96-4e07-a693-edfed0e41346")
 		)
@@ -3676,7 +3964,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "WJ500V-5.08-2P"
 			(at 64.135 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3686,7 +3974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 63.5 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3697,7 +3985,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Ningbo_KangnexElec-WJ500V_5_082P/C8465"
 			(at 63.5 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3721,6 +4009,17 @@
 		)
 		(property "Short description" "SOLAR"
 			(at 63.754 116.586 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part" "C8465"
+			(at 63.5 111.76 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3801,6 +4100,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 133.35 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part" ""
 			(at 133.35 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4049,6 +4359,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 102.87 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3023c7d3-5c9a-4bf3-ba48-ac52350ec504")
 		)
@@ -4134,6 +4455,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part" ""
+			(at 100.33 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1c9caa6a-fe4a-4d14-9e3d-11967d299b14")
 		)
@@ -4153,8 +4485,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 95.25 86.36 270)
+		(lib_id "Switch:SW_SPDT")
+		(at 93.98 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4164,29 +4496,29 @@
 		(dnp no)
 		(uuid "ce02385a-396d-452a-b358-892bdf2975fd")
 		(property "Reference" "J3"
-			(at 95.758 85.09 90)
+			(at 94.234 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 96.52 88.2649 90)
+		(property "Value" "SS-12F44-G5"
+			(at 101.092 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 95.25 86.36 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 93.98 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4196,8 +4528,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 95.25 86.36 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Korean_HropartsElec-SS_12F44G5/C136718"
+			(at 93.98 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4207,8 +4539,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 95.25 86.36 0)
+		(property "Description" "Switch, single pole double throw"
+			(at 93.98 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4219,7 +4551,7 @@
 			)
 		)
 		(property "Short description" "ON/OFF"
-			(at 91.694 84.836 90)
+			(at 99.06 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4229,7 +4561,18 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 95.25 86.36 0)
+			(at 93.98 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part" "C136718"
+			(at 93.98 91.44 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4243,6 +4586,9 @@
 		)
 		(pin "2"
 			(uuid "fda60188-3444-4d5e-8c01-e332ae56de00")
+		)
+		(pin "3"
+			(uuid "ec21076e-b082-4de4-affe-32d40e4925e4")
 		)
 		(instances
 			(project "solar_supplied_battery"
@@ -4310,6 +4656,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 119.38 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part" ""
 			(at 119.38 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4401,6 +4758,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 179.07 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part" ""
 			(at 179.07 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4623,6 +4991,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "JLCPCB Part" ""
+			(at 81.28 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "C"
