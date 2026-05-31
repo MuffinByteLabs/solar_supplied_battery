@@ -2376,6 +2376,10 @@
 		(color 0 0 0 0)
 		(uuid "ce27de27-039a-46f3-8c56-aab38f3d2943")
 	)
+	(no_connect
+		(at 99.06 93.98)
+		(uuid "7f26ee68-b201-463e-b292-cb4b6e6a0336")
+	)
 	(wire
 		(pts
 			(xy 87.63 91.44) (xy 86.36 91.44)
@@ -4495,7 +4499,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce02385a-396d-452a-b358-892bdf2975fd")
-		(property "Reference" "J3"
+		(property "Reference" "SW1"
 			(at 94.234 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4517,7 +4521,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "jlcpcb:SW-TH_SS-12F44-G5"
 			(at 93.98 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4593,7 +4597,7 @@
 		(instances
 			(project "solar_supplied_battery"
 				(path "/2c9a11ac-7ab7-4264-a62c-d36ea767d92d"
-					(reference "J3")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
