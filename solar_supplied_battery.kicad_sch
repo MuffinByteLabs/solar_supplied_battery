@@ -3125,7 +3125,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" "C17776"
 			(at 179.07 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3174,7 +3174,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7 uF, 50 V, X7R (0805)"
+		(property "Value" "4.7 µF, 25 V, X5R (0805)"
 			(at 119.38 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3218,7 +3218,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" "C1779"
 			(at 115.57 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3376,7 +3376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SS14:DIOM4325X250N"
+		(property "Footprint" "SS14:SS14"
 			(at 171.45 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3543,7 +3543,7 @@
 				(justify bottom)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" "C2480"
 			(at 171.45 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3636,7 +3636,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" " C17514"
 			(at 76.2 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3684,7 +3684,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22 uF, 10 V X7R (1206)"
+		(property "Value" "22 µF, 25 V, X5R (1206)"
 			(at 207.264 115.316 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3728,7 +3728,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" " C12891"
 			(at 217.17 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3877,7 +3877,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 pF, 50 V, X7R (0805)"
+		(property "Value" "10 pF, 50 V, C0G (0805)"
 			(at 198.12 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3921,7 +3921,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" "C157608"
 			(at 194.31 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4079,7 +4079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ul_ASPI-0630LR-100M-T15:IND_ASPI-0630LR_ABR"
+		(property "Footprint" "ASPI-0630LR-100M-T15:IND_ASPI-0630LR-100M-T15"
 			(at 133.35 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4114,9 +4114,29 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" "C1334133"
 			(at 133.35 91.44 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Short description" ""
+			(at 133.35 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 133.35 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4363,7 +4383,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" "C17414"
 			(at 102.87 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4459,7 +4479,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" "C8545"
 			(at 100.33 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4521,7 +4541,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "jlcpcb:SW-TH_SS-12F44-G5"
+		(property "Footprint" "SW-TH_SS-12F44-G5:SW-TH_SS-12F44-G5"
 			(at 93.98 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4635,7 +4655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ul_AP3015AKTR-G1:SOT23-5_1P55X2P9_DIO"
+		(property "Footprint" "AP3015AKTR-G1:AP3015AKTR-G1"
 			(at 119.38 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4670,7 +4690,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" "C154879"
 			(at 119.38 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4772,7 +4792,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" " C17514"
 			(at 179.07 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4830,7 +4850,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SS14:DIOM4325X250N"
+		(property "Footprint" "SS14:SS14"
 			(at 81.28 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4997,7 +5017,7 @@
 				(justify bottom)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" "C2480"
 			(at 81.28 91.44 0)
 			(hide yes)
 			(show_name no)
