@@ -5,4 +5,5 @@
 	(lib (name "SS14") (type "KiCad") (uri "${KIPRJMOD}/libs/footprints/SS14.pretty") (options "") (descr ""))
 	(lib (name "SW-TH_SS-12F44-G5") (type "KiCad") (uri "${KIPRJMOD}/libs/footprints/SW-TH_SS-12F44-G5.pretty") (options "") (descr ""))
 	(lib (name "2N7002") (type "KiCad") (uri "${KIPRJMOD}/libs/footprints/2N7002.pretty") (options "") (descr ""))
+	(lib (name "logos") (type "KiCad") (uri "${KIPRJMOD}/libs/logos/logos.pretty") (options "") (descr ""))
 )

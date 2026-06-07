@@ -3636,7 +3636,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" " C17514"
+		(property "JLCPCB Part" "C17514"
 			(at 76.2 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3728,7 +3728,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" " C12891"
+		(property "JLCPCB Part" "C12891"
 			(at 217.17 111.76 0)
 			(hide yes)
 			(show_name no)

@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.2*%
+%TF.CreationDate,2026-06-04T11:42:47-04:00*%
+%TF.ProjectId,solar_supplied_battery,736f6c61-725f-4737-9570-706c6965645f,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.2) date 2026-06-04 11:42:47*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X62875000Y-50075000D02*
+X117050000Y-50075000D01*
+X117050000Y-86500000D01*
+X62875000Y-86500000D01*
+X62875000Y-50075000D01*
+M02*

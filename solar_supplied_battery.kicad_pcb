@@ -89,6 +89,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -121,28 +122,28 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "fab/")
 		)
 	)
-	(footprint "SS14:DIOM4325X250N"
+	(footprint "SS14:SS14"
 		(layer "F.Cu")
 		(uuid "16017a35-a0c2-4fde-b778-be487cdb8e1c")
 		(at 98.685 73.2028 180)
 		(property "Reference" "D1"
-			(at 0 0 0)
+			(at 0 -0.0722 180)
 			(layer "F.SilkS")
 			(uuid "3c228653-3f96-4edd-a32b-c97ea28b95e9")
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "SS14"
-			(at 3.075 2.43 0)
+			(at 3.075 2.43 180)
 			(layer "F.Fab")
 			(uuid "b3651b7b-d82a-491c-b9bb-96babc48ac1a")
 			(effects
@@ -153,7 +154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d4654d96-cd59-49c0-8ed1-71a456bc4d36")
@@ -164,7 +165,7 @@
 			)
 		)
 		(property "Description" "1A, 40V, Planar Schottky"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "68e37b6b-d1ab-4ed7-988e-183b95a808fa")
@@ -179,7 +180,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "34d3623e-fd26-4c08-9520-3254fcd52aef")
+			(uuid "9365ac29-444d-4c4d-a355-e730848c4a33")
 			(effects
 				(font
 					(size 1 1)
@@ -192,7 +193,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3bb4b8e8-d7e8-4bdc-a884-3e009c16a040")
+			(uuid "db586588-45f3-420f-bc4e-b7687e02ee44")
 			(effects
 				(font
 					(size 1 1)
@@ -205,7 +206,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "044222d4-aa68-484e-b4aa-7a05326aaf6c")
+			(uuid "169e8ae3-6fd0-4d8c-9dbe-78adec065b59")
 			(effects
 				(font
 					(size 1 1)
@@ -218,7 +219,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "553235aa-2dbc-44eb-97f0-97c3d5338b63")
+			(uuid "12f7ca57-627f-4753-bf65-40310b4a55a0")
 			(effects
 				(font
 					(size 1 1)
@@ -231,7 +232,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6adc6480-b759-4d6d-b6e2-dd2842b2201d")
+			(uuid "e6b0887e-d8fb-45f9-990c-f68c1274a5ad")
 			(effects
 				(font
 					(size 1 1)
@@ -244,7 +245,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "43fc039c-717d-4f0d-be57-bb2b837d64a9")
+			(uuid "759b3071-12e2-46c5-9c91-d6b3385cf492")
 			(effects
 				(font
 					(size 1 1)
@@ -257,7 +258,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7093bada-1111-4104-b48e-fd6bc5e0cf03")
+			(uuid "80a80e9e-5364-4a11-8d5a-f30b7b33fcfc")
 			(effects
 				(font
 					(size 1 1)
@@ -270,7 +271,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9b398acb-bc44-4cb5-a29b-286648ddf807")
+			(uuid "1bd671a3-f675-4aa3-9957-49c04d1d1ddd")
 			(effects
 				(font
 					(size 1 1)
@@ -283,7 +284,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "157c66a0-0c0e-472b-9db3-3acee6711f66")
+			(uuid "ba72e925-1b38-43da-baa2-cdb6ea682685")
 			(effects
 				(font
 					(size 1 1)
@@ -296,7 +297,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f6aeb26-d661-41ba-98b2-0c3d10227b26")
+			(uuid "04ac7889-7453-41ad-b0b7-6b3536d398ab")
 			(effects
 				(font
 					(size 1 1)
@@ -309,7 +310,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3f55dc27-aef8-4fb1-8da4-9cae22912a0b")
+			(uuid "269670bc-aa48-493f-8277-5ab1f756acc7")
 			(effects
 				(font
 					(size 1 1)
@@ -317,12 +318,12 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" "C2480"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2f7eb336-5d1f-4d80-982f-62a47a1d4d98")
+			(uuid "179f152b-29a7-4f6b-b0af-e0291d622b34")
 			(effects
 				(font
 					(size 1 1)
@@ -522,17 +523,6 @@
 			(uuid "8a08ecc9-3f16-4956-a292-21edd4d2c3c4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/SS14.pretty/SS14.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
 	)
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal"
 		(layer "F.Cu")
@@ -935,7 +925,7 @@
 		(property "Reference" "C3"
 			(at -0.1524 1.778 180)
 			(layer "F.SilkS")
-			(uuid "c253a66e-e051-4f42-983a-d0e7bca19e9e")
+			(uuid "9e0f4593-0c47-43c4-abbd-fff55d89e4b8")
 			(effects
 				(font
 					(size 1 1)
@@ -943,10 +933,10 @@
 				)
 			)
 		)
-		(property "Value" "10 pF, 50 V, X7R (0805)"
+		(property "Value" "10 pF, 50 V, C0G (0805)"
 			(at 0 1.68 0)
 			(layer "F.Fab")
-			(uuid "657e86ca-83c5-48cd-b507-b0144d010805")
+			(uuid "50a85542-8401-4626-9f39-520ff4550aff")
 			(effects
 				(font
 					(size 1 1)
@@ -958,7 +948,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f1e06b6b-6dbc-4926-ae9e-3aa0c60a48f3")
+			(uuid "d2653264-cf23-4484-b1b8-37b1382ff6f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -969,7 +959,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "338828da-718f-45c7-a2df-1fb35d6de23e")
+			(uuid "770ac43c-a1ad-4fe9-9b7f-06feae857b4b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -988,7 +978,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" "C157608"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1061,8 +1051,8 @@
 			(uuid "c8579b5b-60d1-4401-bffc-69f7141bfd21")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1100,7 +1090,7 @@
 	(footprint "logos:muffinByteLogo"
 		(layer "F.Cu")
 		(uuid "29e4789d-e7cb-4624-92bc-2c2a9ffeaf9f")
-		(at 110.25 76.45)
+		(at 110.25 76.25)
 		(property "Reference" "G***"
 			(at -4.275 -0.725 0)
 			(layer "F.SilkS")
@@ -1108,8 +1098,8 @@
 			(uuid "391501ae-177e-4e92-8261-4659ff2cd6e4")
 			(effects
 				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1383,12 +1373,12 @@
 		(uuid "33fb63e8-af5e-41f8-8710-0ed42851d7f0")
 		(at 89.789 75.0824 180)
 		(property "Reference" "L1"
-			(at -2.418 -4.2064 180)
+			(at -0.086 -0.2426 180)
 			(layer "F.SilkS")
 			(uuid "9f339e56-3bb7-4227-8124-5be1fb1503d3")
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1426,7 +1416,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" "C1334133"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1610,12 +1600,12 @@
 			)
 		)
 	)
-	(footprint "jlcpcb:SW-TH_SS-12F44-G5"
+	(footprint "SW-TH_SS-12F44-G5:SW-TH_SS-12F44-G5"
 		(layer "F.Cu")
 		(uuid "4d81e882-2356-4357-8941-d1a914238f5c")
 		(at 92 82.85)
 		(property "Reference" "SW1"
-			(at 3.9 -3.6 0)
+			(at 4.45 -3.75 0)
 			(layer "F.SilkS")
 			(uuid "df765dc3-73c1-4a45-b840-0bf99cd41bcf")
 			(effects
@@ -1675,7 +1665,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9e95bfb8-96b9-40f8-9276-69a8f29385ed")
+			(uuid "6f99adac-9f6e-452a-b6fd-24a9d967222a")
 			(effects
 				(font
 					(size 1 1)
@@ -1688,7 +1678,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5850eedd-a23b-4745-8699-ef53caa411d0")
+			(uuid "f6f506b7-54ab-49b2-a276-90d5f9066146")
 			(effects
 				(font
 					(size 1 1)
@@ -1701,7 +1691,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f7c6285b-2483-41dd-b53f-73755e8f8676")
+			(uuid "358eee15-88ba-44ab-a243-370f95508c1c")
 			(effects
 				(font
 					(size 1 1)
@@ -2102,7 +2092,7 @@
 			(uuid "12e775d0-365b-4fdb-82b7-37d2006282c7")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/jlcpcb.3dshapes/SW-TH_SS-12F44-G5.step"
+		(model "${KIPRJMOD}/libs/3dmodels/SW-TH_SS-12F44-G5.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2114,17 +2104,17 @@
 			)
 		)
 	)
-	(footprint "SS14:DIOM4325X250N"
+	(footprint "SS14:SS14"
 		(layer "F.Cu")
 		(uuid "5261f9fa-5389-464d-816b-8e5c09735092")
 		(at 84.0232 65.4618 90)
 		(property "Reference" "D2"
-			(at 0 0 90)
+			(at -0.925 -2.43 90)
 			(layer "F.SilkS")
 			(uuid "9340ab78-def0-4356-939d-ae7e9df21477")
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2167,7 +2157,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33428ddb-8c01-45f2-b5cd-3006c5517eed")
+			(uuid "4bb886e1-ba64-46fa-910e-6737835b7cf6")
 			(effects
 				(font
 					(size 1 1)
@@ -2180,7 +2170,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3218a202-b24f-4bd9-aea3-94a1ce816307")
+			(uuid "0f3426c2-2536-44e5-bbea-8b9bfe122a21")
 			(effects
 				(font
 					(size 1 1)
@@ -2193,7 +2183,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "89cb52c3-8a4a-4bde-b8ec-03d6baa3e6a7")
+			(uuid "bdf8cc3c-340a-4ad3-8d5c-8b7e073e557b")
 			(effects
 				(font
 					(size 1 1)
@@ -2206,7 +2196,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2036d230-95d7-408c-a9c1-05ebf043f34f")
+			(uuid "37f1a498-0dd4-44b7-87c0-0a2cc4e9c58d")
 			(effects
 				(font
 					(size 1 1)
@@ -2219,7 +2209,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c694e96a-0b53-4684-9815-8cbf1aa4f93e")
+			(uuid "0fe91263-fc7a-4bdd-b5c7-cb2ffaa483d3")
 			(effects
 				(font
 					(size 1 1)
@@ -2232,7 +2222,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "28465294-29ba-482c-9337-459c13c8754f")
+			(uuid "a140fef0-4522-4de2-8070-8f5336280e7d")
 			(effects
 				(font
 					(size 1 1)
@@ -2245,7 +2235,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0bfb052d-830d-4fe5-a77f-507328166646")
+			(uuid "2ae14077-05fe-47ed-97f0-089d72013fbb")
 			(effects
 				(font
 					(size 1 1)
@@ -2258,7 +2248,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9e0df14d-7113-4149-a7b7-8f6ba0e3e0dd")
+			(uuid "f8fc7ddb-7b6a-4d67-82b6-b63a7e7c79bc")
 			(effects
 				(font
 					(size 1 1)
@@ -2271,7 +2261,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "29e92bfc-26e7-43be-8468-e4ac28a72ac6")
+			(uuid "5ab02f69-b174-43a9-9b3d-410152dc2fbf")
 			(effects
 				(font
 					(size 1 1)
@@ -2284,7 +2274,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c80a1f51-f775-4cd3-adfd-afb73be822ff")
+			(uuid "ee8a3dbd-9d8b-47f1-be07-f15cfa9299a2")
 			(effects
 				(font
 					(size 1 1)
@@ -2297,7 +2287,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5e348dd2-457a-4d6f-8a8c-92807e2646a4")
+			(uuid "b105fabf-d3c7-4133-9dab-69f399548fa5")
 			(effects
 				(font
 					(size 1 1)
@@ -2305,12 +2295,12 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" "C2480"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d866f7e7-7ec6-4b33-9335-ec828a4ee0e5")
+			(uuid "cd9f3d94-2b1a-4f88-9788-86a11c52f551")
 			(effects
 				(font
 					(size 1 1)
@@ -2510,17 +2500,6 @@
 			(uuid "edf80404-422e-49dc-9940-952d3aeeaad6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/SS14.pretty/SS14.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -2584,7 +2563,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" "C17776"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2657,8 +2636,8 @@
 			(uuid "907a7f19-aff9-413f-b1ad-a350651986ca")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2755,7 +2734,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" " C17514"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2828,8 +2807,8 @@
 			(uuid "527a8bc0-e759-49aa-82b1-d11ae38b4ff4")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2926,7 +2905,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" "C17414"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2999,8 +2978,8 @@
 			(uuid "05c2a6e6-05b0-46e2-8791-8700821f1300")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3427,25 +3406,25 @@
 			)
 		)
 	)
-	(footprint "ul_AP3015AKTR-G1:SOT23-5_1P55X2P9_DIO"
+	(footprint "AP3015AKTR-G1:AP3015AKTR-G1"
 		(layer "F.Cu")
 		(uuid "9b6b0a0b-969a-460e-b19d-7333d051f46e")
 		(at 94.4372 69.1896 180)
 		(tags "AP3015AKTR-G1 ")
 		(property "Reference" "U1"
-			(at 1.6122 2.2896 0)
+			(at -0.0378 -2.5104 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "13871267-da07-415e-86d8-8158edce45d0")
 			(effects
 				(font
-					(size 0.9 0.9)
-					(thickness 0.14)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "AP3015AKTR-G1"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c458d00e-82e3-4d55-87ba-8f7ed09bc962")
@@ -3457,7 +3436,7 @@
 			)
 		)
 		(property "Datasheet" "AP3015AKTR-G1"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4f19707f-f363-4678-badb-a720da2d1f2b")
@@ -3468,7 +3447,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2a7ee9b7-cf4a-4175-86bb-f84ea079e043")
@@ -3478,12 +3457,12 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" "C154879"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e669af98-61ab-46a6-bb31-7a867dd1bc2c")
+			(uuid "d153cc15-a226-466c-b1fa-c06ac8effd3e")
 			(effects
 				(font
 					(size 1 1)
@@ -3917,9 +3896,10 @@
 			)
 		)
 		(fp_text user "*"
-			(at -0.3937 -1.3716 0)
+			(at -0.3937 -1.3716 180)
+			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "fb973b69-81f5-4ba2-85ef-e88a47ca694f")
+			(uuid "85e60e77-ef1c-4c92-9e6c-d27d1dce3059")
 			(effects
 				(font
 					(size 1 1)
@@ -3929,9 +3909,8 @@
 		)
 		(fp_text user "*"
 			(at -0.3937 -1.3716 180)
-			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "85e60e77-ef1c-4c92-9e6c-d27d1dce3059")
+			(uuid "fb973b69-81f5-4ba2-85ef-e88a47ca694f")
 			(effects
 				(font
 					(size 1 1)
@@ -4048,7 +4027,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" "C8545"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4333,8 +4312,8 @@
 			(uuid "0f86b03f-8d2a-41c9-82bc-e2f62888b86c")
 			(effects
 				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4398,7 +4377,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7 uF, 50 V, X7R (0805)"
+		(property "Value" "4.7 µF, 25 V, X5R (0805)"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "27e0067d-ab8f-4cd1-8b24-7d687b3a3907")
@@ -4443,7 +4422,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" "C1779"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4516,8 +4495,8 @@
 			(uuid "fc7be81b-78c4-4dfb-97e1-cbad7f573fda")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4614,7 +4593,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" " C17514"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4687,8 +4666,8 @@
 			(uuid "556d0777-3b4a-4c49-9968-c5abee44ed35")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5132,7 +5111,7 @@
 				)
 			)
 		)
-		(property "Value" "22 uF, 10 V X7R (1206)"
+		(property "Value" "22 µF, 25 V, X5R (1206)"
 			(at 0 1.85 90)
 			(layer "F.Fab")
 			(uuid "c14867ab-63cb-4046-8843-106f50f2a990")
@@ -5177,7 +5156,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part" ""
+		(property "JLCPCB Part" " C12891"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5250,8 +5229,8 @@
 			(uuid "383860e3-eba9-4fe0-98ee-0f153ffdde60")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5369,7 +5348,7 @@
 		)
 	)
 	(gr_text "Ray Malik"
-		(at 100.525 77.6 0)
+		(at 100.525 77.3 0)
 		(layer "F.SilkS")
 		(uuid "a199d3d1-9844-493f-bfa5-35d4299e5af7")
 		(effects
@@ -5630,7 +5609,7 @@
 	)
 	(via
 		(at 87.825 54.375)
-		(size 0.6)
+		(size 0.8)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -5639,7 +5618,7 @@
 	)
 	(via
 		(at 91.775 69.125)
-		(size 0.6)
+		(size 0.8)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -5647,8 +5626,8 @@
 		(uuid "067cf801-6d10-4420-a32c-c4c5bf560733")
 	)
 	(via
-		(at 98.5 68.025)
-		(size 0.6)
+		(at 97.475 68.125)
+		(size 0.8)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -5657,7 +5636,7 @@
 	)
 	(via
 		(at 66.45 82.625)
-		(size 0.6)
+		(size 0.8)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -5666,7 +5645,7 @@
 	)
 	(via
 		(at 103.5 65.3)
-		(size 0.6)
+		(size 0.8)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -5675,7 +5654,7 @@
 	)
 	(via
 		(at 113.15 79.75)
-		(size 0.6)
+		(size 0.8)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -5684,7 +5663,7 @@
 	)
 	(via
 		(at 93.7 63.575)
-		(size 0.6)
+		(size 0.8)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -5693,7 +5672,7 @@
 	)
 	(via
 		(at 101.375 79.8)
-		(size 0.6)
+		(size 0.8)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -5701,8 +5680,8 @@
 		(uuid "577cbdf1-22a7-4c7f-8952-7b458538ca11")
 	)
 	(via
-		(at 94.35 69.2)
-		(size 0.6)
+		(at 98.775 71.9)
+		(size 0.8)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -5711,7 +5690,7 @@
 	)
 	(via
 		(at 75 67.85)
-		(size 0.6)
+		(size 0.8)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -5720,7 +5699,7 @@
 	)
 	(via
 		(at 113.15 54.45)
-		(size 0.6)
+		(size 0.8)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -5729,7 +5708,7 @@
 	)
 	(via
 		(at 66.575 54.375)
-		(size 0.6)
+		(size 0.8)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -5738,7 +5717,7 @@
 	)
 	(via
 		(at 101.325 54.425)
-		(size 0.6)
+		(size 0.8)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -5747,7 +5726,7 @@
 	)
 	(via
 		(at 66.5 67.8)
-		(size 0.6)
+		(size 0.8)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
